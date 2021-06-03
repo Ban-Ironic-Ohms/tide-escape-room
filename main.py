@@ -69,7 +69,7 @@ def launch():
         print("Game finished")
         exit()
 
-    print("Preparing to launch. Send someone to the hallway to be launched to space, but beware: if you send the imposters, you will fail")
+    print("Preparing to launch. Vote someone to be launched to space and to save earth, but beware: if you send the imposters, you will fail")
 
     countdown(90)
 
