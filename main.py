@@ -20,7 +20,7 @@ def q2():
 def q3():
     print("Refer to the image provided")
     reply = input("Targeting system: what are the coordinates for the grassy knoll (#, #): ")
-    if reply == "#, #": #TODO
+    if reply == "-2, 2":
         print("Correct!")
         q4()
     else:
@@ -38,7 +38,7 @@ def q4():
 
 def q5():
     reply = input("Enter authorization code (starts with TIDE-LAUNCH, hidden somewhere in the room): ")
-    if reply == "TIDE-LAUNCH##########" or reply == "#############": #TODO
+    if reply == "TIDE-LAUNCH0987654321aaba422" or reply == "0987654321aaba422":
         print("Correct!")
         q6()
     else:
